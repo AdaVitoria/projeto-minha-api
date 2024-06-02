@@ -1,0 +1,14 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "createHostSchema",
+    "type": "object",
+    "properties": {
+        "server_name": {
+            "type":"string"
+        } ,
+        "password": {
+            "type":"string"
+        }
+    },
+    "required": ["server_name","password"]
+}

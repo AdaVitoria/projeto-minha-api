@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "createPendenciaSchema",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type":"string"
+        },
+        "id_host": {
+            "type":"integer"
+        },
+        "total_value": {
+            "type": "decimal"
+        }
+    },
+    "required": ["title", "id_host"]
+}
